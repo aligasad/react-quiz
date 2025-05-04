@@ -124,7 +124,7 @@ function App() {
             <li key={index}>
               <button
                 onClick={() => handleAnswerClick(answer)}
-                className="w-full bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-xl transition duration-200"
+                className="w-full cursor-pointer bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-xl transition duration-200"
               >
                 {answer}
               </button>
